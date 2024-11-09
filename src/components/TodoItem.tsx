@@ -17,7 +17,7 @@ interface TodoItemProps {
             className="w-5 h-5 border-2 rounded-md focus:ring-blue-500"
             aria-label={`Mark "${title}" as ${completed ? 'incomplete' : 'complete'}`}
           />
-          <span className={`flex-1 ${completed ? 'line-through text-gray-500' : ''}`}>
+          <span className={`flex-1 ${completed ? 'line-through text-black' : ''}`}>
             {title}
           </span>
         </label>
