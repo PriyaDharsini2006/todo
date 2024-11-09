@@ -1,20 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Todo App
 
-## Getting Started
+This is a simple **Todo App** built using **Next.js**, **Tailwind CSS**, **Prisma**, **Zod**, and **Toast** for notifications.
 
-First, run the development server:
+## Features
+
+- **Next.js** for server-side rendering (SSR) and routing.
+- **Tailwind CSS** for utility-first CSS styling.
+- **Prisma** for database interaction.
+- **Zod** for validation of data in API routes and forms.
+- **Toast** for notifications in the UI.
+
+## Tech Stack
+
+- **Next.js** - A React framework for building fast, server-rendered React applications.
+- **Tailwind CSS** - A utility-first CSS framework for styling.
+- **Prisma** - A modern database toolkit for TypeScript and Node.js.
+- **Zod** - A TypeScript-first schema validation library.
+- **Toast** - A React library for displaying notification messages.
+
+## Setup and Installation
+
+### Prerequisites
+
+- Node.js >= 14.0.0
+- PostgreSQL (or another compatible database)
+
+### Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
