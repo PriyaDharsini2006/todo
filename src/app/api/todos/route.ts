@@ -15,6 +15,7 @@ export async function GET() {
     })
     return NextResponse.json(todos)
   } catch (error) {
+    console.error("Error fetching todos:", error);
     return NextResponse.json({ error: 'Error fetching todos' }, { status: 500 })
   }
 }
